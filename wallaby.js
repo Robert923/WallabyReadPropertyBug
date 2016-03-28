@@ -4,12 +4,13 @@
 module.exports = function (wallaby) {
     return {
         'files': [
-            'lib/**/*.ts'
+            'lib/**/*.ts',
+            'test/**/*.ts',
+            '!test/**/*Tests.ts'
         ],
 
         'tests': [
-            'test/*.ts',
-            'test/**/*.ts'
+            'test/**/*Tests.ts'
         ],
 
         'testFramework': 'mocha',
