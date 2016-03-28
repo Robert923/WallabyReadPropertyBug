@@ -5,7 +5,7 @@ module.exports = function (wallaby) {
     return {
         'files': [
             'lib/**/*.ts',
-            'test/*.ts',
+            'test/**/*.ts',
             '!test/**/*Tests.ts'
         ],
 
