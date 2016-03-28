@@ -1,0 +1,17 @@
+## Ignore IDE files
+.vscode/**
+.idea/**
+.ntvs_analysis.dat
+
+## Ignore files that are pulled down automatically
+typings/**
+node_modules/**
+
+## Ignore TypeScript generated files
+app.js
+app.js.map
+lib/**/*.js
+lib/**/*.js.map
+test/**/*.js
+test/**/*.js.map
+
